@@ -1,0 +1,28 @@
+.header img {
+	float: left;
+	width: 70px;
+	height: 68px;
+}
+
+.header h1 {
+	position: relative;
+	top: 9px;
+	left: 10px;
+}
+
+body {
+  	text-align: center;
+  	background-image: none;
+  	background-color: black;
+  	background-size: cover;
+  	color: #FFF;
+  	font-family: Helvetica;
+}
+hr {
+  	width: 300px;
+}  
+p {
+    margin: 0
+    px 10px 10px 50px;
+  	font-size: 22px;
+}
