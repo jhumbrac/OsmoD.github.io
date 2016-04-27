@@ -1,0 +1,77 @@
+@import url (https://fonts.googleapis.com/css?family=Ubuntu:400,400italic);
+
+#container {
+  margin: 0 auto;
+  width: 1000px;
+  background-color: black;
+}
+
+#header {
+    background-color: red;
+    color:black;
+    padding:20px;
+}
+
+.header img {
+  margin: 0;
+}
+
+nav {
+    font-size: 2em;
+    float: right;
+    background: #333;
+}
+
+nav a {
+    display: inline-block;
+    float: left;
+    padding: 5px 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+}
+
+nav a:hover {
+  background-color: #ff0000;
+}
+
+section {
+  background: #222;
+  color: #fff;
+  overflow: auto;
+}
+
+.column {
+    float: left;
+    width: 260px;
+    height: 600px;
+    padding: 20px;
+    margin: 0;
+    color:white;
+    background-color: #333;
+}
+
+footer {
+  background-color: #cccccc;
+  color: black;
+  text-align: center;
+  padding: 1em 0;
+  clear: both;
+}
+
+
+h1  {
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+
+body {
+    font-family: 'Ubuntu', georgia, sans-serif; 
+    text-align: center;
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    color: #FFF;
+}
+
