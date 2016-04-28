@@ -1,5 +1,5 @@
 @import url (https://fonts.googleapis.com/css?family=Ubuntu:400,400italic);
-
+* {margin:0;padding:0;box-sizing:border-box;}
 #container {
   margin: 0 auto;
   width: 1000px;
@@ -11,24 +11,26 @@
     color:black;
     padding:20px;
 }
-
-.header img {
-  margin: 0;
+#hero {
+    background: url(../images/combine_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh; 
 }
 
 nav {
-    font-size: 2em;
+    font-size: 1.25em;
     float: right;
     background: #333;
 }
 
 nav a {
     display: inline-block;
-    float: left;
-    padding: 5px 10px;
+    padding: .5em 1em;
     color: #ffffff;
     text-decoration: none;
-    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
 }
 
 nav a:hover {
@@ -43,12 +45,10 @@ section {
 
 .column {
     float: left;
-    width: 260px;
-    height: 600px;
+    width: 25%;
     padding: 20px;
     margin: 0;
     color:white;
-    background-color: #333;
 }
 
 footer {
@@ -67,8 +67,8 @@ h1  {
 
 
 body {
-    font-family: 'Ubuntu', georgia, sans-serif; 
-    text-align: center;
+    font-family: 'Ubuntu', georgia, sans-serif;
+    /* text-align: center; */
     background-image: none;
     background-color: white;
     background-size: cover;
