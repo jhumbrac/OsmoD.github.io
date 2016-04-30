@@ -1,77 +1,89 @@
-@import url (https://fonts.googleapis.com/css?family=Ubuntu:400,400italic);
-* {margin:0;padding:0;box-sizing:border-box;}
-#container {
+ @import url (https://fonts.googleapis.com/css?family=Ubuntu:400,400italic);
+ 
+  #container {
   margin: 0 auto;
-  width: 1000px;
-  background-color: black;
+  width: 900px;
+  background-color: #ffffff;
 }
 
-#header {
-    background-color: red;
-    color:black;
-    padding:20px;
+header {
+  background-color: #cccccc;
+  padding: 20px;
 }
-#hero {
-    background: url(../images/combine_2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 85vh; 
+
+header h1 { 
+  margin: 0; 
 }
 
 nav {
-    font-size: 1.25em;
-    float: right;
-    background: #333;
+  background: #333;
 }
 
 nav a {
-    display: inline-block;
-    padding: .5em 1em;
-    color: #ffffff;
-    text-decoration: none;
-    border-left: 1px solid #fff;
+  display: block;
+  float: left;
+  padding: 5px 10px;
+  color: #ffffff;
+  text-decoration: none;
+  border-right: 1px solid #fff;
 }
 
-nav a:hover {
-  background-color: #ff0000;
+nav a:hover { 
+  background-color: #FF0000; 
 }
 
-section {
-  background: #222;
-  color: #fff;
-  overflow: auto;
+div {
+  font-size: 1.2em
+  width: 21%;
+  padding: 2%;
+  display: inline-block;
+}
+
+#hero {
+  display: block;
+  width: 100%
+  margin 0;
+  background: url('../images/combine_2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 85vh;
 }
 
 .column {
-    float: left;
-    width: 25%;
-    padding: 20px;
-    margin: 0;
-    color:white;
+  float: left;
+  width: 21%;
+  height: 300px;
+  padding: 2%;
+  margin: 0;
+  text-align: block;
+}
+
+.column img {
+  display: block;
+  margin: 0;
+  padding-bottom: 2em;
 }
 
 footer {
   background-color: #cccccc;
-  color: black;
-  text-align: center;
-  padding: 1em 0;
+  text-align: right;
+  padding: 20px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
   clear: both;
+  height: 0;
 }
 
-
-h1  {
-  font-family: Helvetica, sans-serif;
-  text-transform: uppercase;
+p {
+  font-family: palatino, Helvetica, serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.2em;
+  margin: 0em;
 }
-
-
-body {
-    font-family: 'Ubuntu', georgia, sans-serif;
-    /* text-align: center; */
-    background-image: none;
-    background-color: white;
-    background-size: cover;
-    color: #FFF;
-}
-
