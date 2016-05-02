@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Welcome!</title>
+
+  <style type="text/CSS">
+
+  body {background-color: #DCDCDC}
+
+  </style>
+
+  <script type="text/javascript">
+
+  window.onload=timeout;
+  function timeout(){
+  windowsetTimeout("redirect()",5000)}
+
+  function redirect(){
+  window.location="Home.htm"
+  return}  
+
+  </script>
+
+  Omitted...
+
+  <body onload="timeout()">
+
+  Omitted...
+
+</head>
+
+<body>
+    <img src="splashimage.jpg">
+
+<br>
+<form>
+<input type="button" value="Home Page" onClick="redirect()">
+</form>
+
+<p> Thank You For Visiting!</p>
+
+</body>
+
+
+</html>
