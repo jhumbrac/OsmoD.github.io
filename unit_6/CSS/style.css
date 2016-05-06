@@ -1,20 +1,16 @@
- @import url (https://fonts.googleapis.com/css?family=Ubuntu:400,400italic);
- 
-  #container {
-  margin: 0 auto;
-  width: 900px;
-  background-color: #ffffff;
+ @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400italic);
+ * {margin:0;padding:0;box-sizing:border-box;}
+body {
+  font-family: palatino, Helvetica, serif;
+  font-size:16px; 
 }
-
 header {
   background-color: #cccccc;
-  padding: 20px;
+  padding: 1.25em;
 }
-
-header .img {
-  width: 100px;
+header img {
+  width:20em;
 }
-
 header h1 { 
   margin: 0; 
 }
@@ -26,7 +22,7 @@ nav {
 nav a {
   display: block;
   float: left;
-  padding: 5px 10px;
+  padding: .5em 1em;
   color: #ffffff;
   text-decoration: none;
   border-right: 1px solid #fff;
@@ -37,10 +33,6 @@ nav a:hover {
 }
 
 div {
-  font-size: 1.2em
-  width: 21%;
-  padding: 2%;
-  display: inline-block;
 }
 
 #hero {
@@ -56,9 +48,8 @@ div {
 
 .column {
   float: left;
-  width: 21%;
-  height: 300px;
-  padding: 2%;
+  width: 25%;
+  padding: 2em;
   margin: 0;
   text-align: block;
 }
@@ -67,12 +58,13 @@ div {
   display: block;
   margin: 0;
   padding-bottom: 2em;
+  width: 100%;
 }
 
 footer {
   background-color: #cccccc;
   text-align: right;
-  padding: 20px;
+  padding: 2em;
 }
 
 .clearfix:after {
@@ -85,9 +77,5 @@ footer {
 }
 
 p {
-  font-family: palatino, Helvetica, serif;
-  font-size: 16px;
-  font-style: italic;
-  line-height: 1.2em;
-  margin: 0em;
+  text-align: justify;
 }
