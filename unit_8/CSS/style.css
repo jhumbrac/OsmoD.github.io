@@ -1,0 +1,81 @@
+ @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400italic);
+ * {margin:0;padding:0;box-sizing:border-box;}
+body {
+  font-family: palatino, Helvetica, serif;
+  font-size:16px; 
+}
+header {
+  background-color: #cccccc;
+  padding: 1.25em;
+}
+header img {
+  width:20em;
+}
+header h1 { 
+  margin: 0; 
+}
+
+nav {
+  background: #333;
+}
+
+nav a {
+  display: block;
+  float: left;
+  padding: .5em 1em;
+  color: #ffffff;
+  text-decoration: none;
+  border-right: 1px solid #fff;
+}
+
+nav a:hover { 
+  background-color: #FF0000; 
+}
+
+div {
+}
+
+#hero {
+  display: block;
+  width: 100%
+  margin 0;
+  background: url('../images/combine_2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 85vh;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 2em;
+  margin: 0;
+  text-align: block;
+}
+
+.column img {
+  display: block;
+  margin: 0;
+  padding-bottom: 2em;
+  width: 100%;
+}
+
+footer {
+  background-color: #cccccc;
+  text-align: left;
+  padding: 2em;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+p {
+  text-align: justify;
+}
