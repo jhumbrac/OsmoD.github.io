@@ -115,9 +115,14 @@ p {
     section, div {
       width: 100%;
       padding: .6em;
+      float: none;
     }
     
     .column img {
       float: none;
+    }
+    
+    footer {
+     float:none;
     }
   }
