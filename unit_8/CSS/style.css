@@ -51,7 +51,7 @@ div {
   width: 25%;
   padding: 2em;
   margin: 0;
-  text-align: block;
+  text-align: justify;
 }
 
 .column img {
@@ -79,7 +79,24 @@ footer {
 p {
   text-align: justify;
 }
-
+@media only screen and (max-width:1125px) {
+  .column {
+    width:50%;
+  }
+}
+@media only screen and (max-width:745px) {
+  .column {
+    min-height: 25em;
+  }
+}
+@media only screen and (max-width:685px) {
+  .column {
+    width:80%;
+    margin:auto;
+    float:none
+    
+  }
+}
  @media only screen and (max-width: 480px) {
     header {
       display: block;
